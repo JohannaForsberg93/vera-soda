@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Produkter</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!-- Compiled and minified JavaScript -->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+	<script defer src="main.js"></script>
+	<header>
+		<div class="container">
+			<h3 class="header-class">Vera Soda</h3>
+		</div>
+		<nav class="nav-center" role="navigation">
+			<div class="nav-wrapper container">
+				<ul>
+					<li><a href="index.html">Hem</a></li>
+					<li><a href="products.html">Produkter</a></li>
+					<li><a href="about-us.html">Om oss</a></li>
+
+					<a class='dropdown-trigger btn teal right' href='#' data-target='dropdown1'><i
+							class="material-icons right">shopping_basket</i></a>
+					<!-- Dropdown Structure -->
+					<ul id='dropdown1' class='dropdown-content'>
+
+					</ul>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<br><br>
+		<div class="container">
+			<!-- Cards från api -->
+			<div id="card-html">
+
+
+			</div>
+		</div>
+	</main>
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="black-text">Footer Content</h5>
+					<p class="black-text">You can use rows and columns here to organize your footer
+						content.
+					</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="black-text">Links</h5>
+					<ul>
+						<li><a class="black-text text-lighten-3" href="#!">Link 1</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container black-text">
+				© 2023 Copyright Text
+				<a class="black-text right" href="#!">More Links</a>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
